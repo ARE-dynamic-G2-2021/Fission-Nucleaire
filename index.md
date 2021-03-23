@@ -15,4 +15,14 @@
 <h2 style="text-align:center;">L’énergie de fission</h2>
 <p style="text-align:center;">L'énergie cinétique des fragments et des particules émises à la suite d'une fission finit par se transformer en énergie thermique, par l'effet des collisions et des interactions avec les atomes de la matière traversée, sauf pour ce qui concerne les neutrinos, inévitablement émis dans les désintégrations β, et qui s’échappent toujours du milieu (ils peuvent traverser la Terre sans interagir).</p>
 <img src="https://lh3.googleusercontent.com/1Ces9aOCK3GRdpe2YVs6m4ZZuDZELQ2qqdwj4N_m_MtL2TjTVjMFqN-B3W4L4Wlo39DN4jAzQILdLgZlNuwjIQYdn6eB-IS6rZQ_lt85" width="512" height="218">
-
+<h2 style="text-align:center;">Ordres de grandeur</h2>
+<p> &diams;1 fission produit 193 MeV = 193 × 10^6 × 1,602 18 × 10^−19 = 3,092 2 × 10−11 joules</p>
+<p> &diams;1 gramme d'uranium 235 fissionné ⇔ 1/235,0439299 × NA fissions = 1/235,0439299 × 6,022 141 29 × 10^23 fissions = 2,562 13 × 10^21 fissions</p>
+<p> &diams;1 gramme d'uranium 235 fissionné ⇔ 2,562 13 × 1021 × 3,092 2 × 10^−11 joule = 7,922 63 × 1010 joules</p>
+<p> &diams;1 mégawatt-jour = 24 MWh = 24 × 3600 × 10^6 joules = 8,64 × 10^10 joules</p>
+<p> &diams;1 mégawatt-jour ⇔ 1,090 55 gramme d'uranium 235 fissionné</p>
+<p> 1 mégawatt-jour ⇔ 1,09 gramme d'uranium 235 fissionné </p>
+<p> C'est-à-dire tous les atomes d'uranium 235 présents dans (1,090 55 / 0,007 202) = 151,42 grammes d'uranium naturel. Or : </p>
+<p> &diams;1 mégawatt-jour = 1 000 000 × 24 = 1 000 kW × 24 = 24 000 kWh</p>
+<p> &diams;24 000 / 151,42 = 158,497 kWh</p>
+<p>Donc la fission de tous les atomes d'uranium 235 présents dans 1 g d'uranium naturel peut produire 158,5 kWh.</p>
