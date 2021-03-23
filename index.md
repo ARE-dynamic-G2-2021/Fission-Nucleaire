@@ -3,4 +3,4 @@
 
 <h2>Fission Induite</h2>
 <p>Sous l’effet d’une collision avec un neutron, le noyau de certains gros atomes, dits fissiles, à la propriété de se casser en deux. La matière fissile qui constitue le cœur des réacteurs est en général de l’uranium ou du plutonium. En absorbant un neutron, un noyau d’atome 235U se transforme ainsi en 236U, un isotope de l’uranium, dans un état excité de 6,2 Méga-électrons-volts (MeV, avec 1 MeV = 1,6 × 10−13 joules). Il se comporte ainsi un peu comme une goutte d'eau.</p>
-
+<img src="https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/4/6/346d715d4e_27200_2462-fission-universite-maine.jpg" width="601" height="355">
