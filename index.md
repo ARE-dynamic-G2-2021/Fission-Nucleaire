@@ -6,6 +6,12 @@
 <img src="https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/4/6/346d715d4e_27200_2462-fission-universite-maine.jpg" width="601" height="340">
 <p> &diams; Dans 16 % des cas, l'énergie est dissipée par rayonnement électromagnétique et le noyau d'236U reste intact.</p>
 <p> &diams; Dans 84 % des cas, cette énergie suffit pour que le noyau puisse franchir la barrière de fission, de 5,7 MeV et se fragmenter en deux autres noyaux comme le krypton 93 (93Kr) et le baryum 140 (140Ba) ou bien le strontium 94 et le xénon 140 </p>
+
 <h2 style="text-align:center;">Bilan neutronique</h2>
 <p style="text-align:center;">Lors de la fission, des neutrons rapides sont tout de suite (10−14 s) émis, ils sont dits neutrons instantanés (anciennement nommés neutrons prompts). Puis, après l'émission de ces neutrons instantanés, les produits de fission commencent leur décroissance radioactive. Ces décroissances radioactives vont engendrer la libération de neutrons rapides avec une latence de 13 secondes en moyenne; ces neutrons libérés juste après des désintégrations β sont appelés neutrons retardés.</p>
-                <p style="text-align:center"><img src="https://lh3.googleusercontent.com/0q9Gd0RI15XrgSksdscdH4MMC-seioS4ekQ8UgwrLQ_d8KvR7qgWLp5KOG46CIYVs1gmBNMYRX4IVDmX9NDavyBiuKvEhj88CpkrVzrqb21VkPMWr0GZSMDET8nJI1rAsvHUjKir" style="width:390px;height:211px;"></p>
+
+<img src="https://lh3.googleusercontent.com/0q9Gd0RI15XrgSksdscdH4MMC-seioS4ekQ8UgwrLQ_d8KvR7qgWLp5KOG46CIYVs1gmBNMYRX4IVDmX9NDavyBiuKvEhj88CpkrVzrqb21VkPMWr0GZSMDET8nJI1rAsvHUjKir" style="width:390px;height:211px;">
+
+<h2 style="text-align:center;">L’énergie de fission</h2>
+<p style="text-align:center;">L'énergie cinétique des fragments et des particules émises à la suite d'une fission finit par se transformer en énergie thermique, par l'effet des collisions et des interactions avec les atomes de la matière traversée, sauf pour ce qui concerne les neutrinos, inévitablement émis dans les désintégrations β, et qui s’échappent toujours du milieu (ils peuvent traverser la Terre sans interagir).</p>
+<img src="https://lh3.googleusercontent.com/1Ces9aOCK3GRdpe2YVs6m4ZZuDZELQ2qqdwj4N_m_MtL2TjTVjMFqN-B3W4L4Wlo39DN4jAzQILdLgZlNuwjIQYdn6eB-IS6rZQ_lt85" width="512" height"218">
