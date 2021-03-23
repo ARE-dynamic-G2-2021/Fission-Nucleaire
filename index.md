@@ -14,4 +14,4 @@
 
 <h2 style="text-align:center;">L’énergie de fission</h2>
 <p style="text-align:center;">L'énergie cinétique des fragments et des particules émises à la suite d'une fission finit par se transformer en énergie thermique, par l'effet des collisions et des interactions avec les atomes de la matière traversée, sauf pour ce qui concerne les neutrinos, inévitablement émis dans les désintégrations β, et qui s’échappent toujours du milieu (ils peuvent traverser la Terre sans interagir).</p>
-<img src="https://lh3.googleusercontent.com/1Ces9aOCK3GRdpe2YVs6m4ZZuDZELQ2qqdwj4N_m_MtL2TjTVjMFqN-B3W4L4Wlo39DN4jAzQILdLgZlNuwjIQYdn6eB-IS6rZQ_lt85" width="512" height"218">
+<img src="https://lh3.googleusercontent.com/1Ces9aOCK3GRdpe2YVs6m4ZZuDZELQ2qqdwj4N_m_MtL2TjTVjMFqN-B3W4L4Wlo39DN4jAzQILdLgZlNuwjIQYdn6eB-IS6rZQ_lt85" width="512" height="218">
