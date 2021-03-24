@@ -4,11 +4,11 @@ from tkinter import *
 
 LARGEUR, HAUTEUR = 1000,850
 
-RAYON, NRAYON = 10, 5 #rayon de l'atome et du neutron
+RAYON, NRAYON = 20, 5 #rayon de l'atome et du neutron
 CLICK = 0 #variable pour restart
 MOVE = 0 #variable pour bouger le neutron
 n, nn = 0, 1 #nombre des atoms et des neutrons
-SPEED, NSPEED = 5, 10 #okay this is easy to guess
+SPEED, NSPEED = 5, 15 #okay this is easy to guess
 
 X,Y = [],[]
 DX,DY = [],[] 
@@ -114,47 +114,43 @@ Canevas = Canvas(leftframe,height=HAUTEUR,width=LARGEUR,bg='white')
 Canevas.pack(padx=5,pady=5)
 
 def estDansAtome(ax, ay, nx, ny):
-    if(nx >= ax-RAYON and nx<= ax+RAYON and ny >= ay-RAYON and ny<= ay+RAYON ):
-        return 1
-    return 0
+    if(nx >= ax-RAYON and nx<= ax+RAYON and ny >= ay-RAYON and ny<= ay+RAYON):
+        return True
+    return False
 
 def actualiserCollision():
-    global root, X, Y, DX, DY, n, NX, NY, NDX, NDY, nn, Neutron, Balle, Canevas, CLICK, MOVE
+    global X, Y, DX, DY, n, NX, NY, NDX, NDY, nn, Neutron, Balle, Canevas
     #return 
     i = 0
     j = 0
+    
     while(i<nn):
         while(j<n):
-            if(i<nn):
-                if estDansAtome(X[j], Y[j], NX[i], NY[i]): 
-                    n-=1
-                    nn+=2
-                    x = X[j]
-                    y = Y[j]
+            if estDansAtome(X[j], Y[j], NX[i], NY[i]):
+                nn += 2
+                for l in range(2):
+                    NX.append(X[j])
+                    NY.append(Y[j])
+                    angle = 2*np.pi*np.random.rand()
+                    NDX.append(np.cos(angle))
+                    NDY.append(np.sin(angle))
+                    col = COLORS[np.random.randint(1, len(COLORS))-1]
+                    k=len(NX)-1
+                    Neutron.append(Canevas.create_oval(NX[k]-NRAYON,NY[k]-NRAYON,NX[k]+NRAYON,NY[k]+NRAYON,width=1,fill=col))
                     
-                    X.pop(j)
-                    Y.pop(j)
-                    DX.pop(j)
-                    DY.pop(j)
-            
-                    Canevas.delete(Balle[j])
-                    Balle.pop(j)
-                    
-                    for k in range(2):
-                        NX.append(x)
-                        NY.append(y)
-                        angle = 2*np.pi*np.random.rand()
-                        NDX.append(np.cos(angle))
-                        NDY.append(np.sin(angle))
-                        col = COLORS[np.random.randint(1, len(COLORS))-1]
-                        Neutron.append(Canevas.create_oval(NX[k]-NRAYON,NY[k]-NRAYON,NX[k]+NRAYON,NY[k]+NRAYON,width=1,fill=col))
-
-                    actualiserCollision()
-            j+=1
-        i+=1
+                  
+                X.pop(j)
+                Y.pop(j)
+                DX.pop(j)
+                DY.pop(j)
+                Canevas.delete(Balle[j])
+                Balle.pop(j)
                 
-    #print(NX, "and ", NY, "and", nn, "and", n)
-    print(Neutron)
+                n-=1         
+            j+=1
+
+        i+=1
+        j=0
     return
     
 def deplacement():
@@ -215,14 +211,16 @@ def deplacement():
                 NY[i] = NY[i]+NDY[i]*float(NSPEED)
             
             actualiserCollision()
+            for i in range(nn):
+                Canevas.coords(Neutron[i],NX[i]-NRAYON,NY[i]-NRAYON,NX[i]+NRAYON,NY[i]+NRAYON)
+ 
+            #actualiserCollision()
         # affichage des atomes
         for i in range(n):
             Canevas.coords(Balle[i],X[i]-RAYON,Y[i]-RAYON,X[i]+RAYON,Y[i]+RAYON)
         
         # affichage des neutrons
-        if(MOVE == 1):
-            for i in range(nn):
-                Canevas.coords(Neutron[i],NX[i]-NRAYON,NY[i]-NRAYON,NX[i]+NRAYON,NY[i]+NRAYON)
+        #if(MOVE == 1):
         # mise a jour toutes les 50 ms
         root.after(50,deplacement)
 
