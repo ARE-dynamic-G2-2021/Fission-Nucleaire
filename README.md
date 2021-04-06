@@ -1,7 +1,7 @@
-NOM, Prénom : COULIBALY,Sokhona 
-NOM, Prénom : ENGERAND,Julien
-NOM, Prénom : SZASZ, Robert
-NOM, Prénom : TOPA,Elena 
+COULIBALY,Sokhona 
+ENGERAND,Julien
+SZASZ, Robert
+TOPA,Elena 
 
 
 
