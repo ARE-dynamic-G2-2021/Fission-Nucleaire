@@ -10,7 +10,7 @@
 <h2 style="text-align:center;">Bilan neutronique</h2>
 <p style="text-align:center;">Lors de la fission, des neutrons rapides sont tout de suite (10−14 s) émis, ils sont dits neutrons instantanés (anciennement nommés neutrons prompts). Puis, après l'émission de ces neutrons instantanés, les produits de fission commencent leur décroissance radioactive. Ces décroissances radioactives vont engendrer la libération de neutrons rapides avec une latence de 13 secondes en moyenne; ces neutrons libérés juste après des désintégrations β sont appelés neutrons retardés.</p>
 
-<img src="tabel.png" style="width:390px;height:211px;">
+<img src="" style="width:390px;height:211px;">
 
 <h2 style="text-align:center;">L’énergie de fission</h2>
 <p style="text-align:center;">L'énergie cinétique des fragments et des particules émises à la suite d'une fission finit par se transformer en énergie thermique, par l'effet des collisions et des interactions avec les atomes de la matière traversée, sauf pour ce qui concerne les neutrinos, inévitablement émis dans les désintégrations β, et qui s’échappent toujours du milieu (ils peuvent traverser la Terre sans interagir).</p>
