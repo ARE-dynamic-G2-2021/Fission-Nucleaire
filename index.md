@@ -15,7 +15,7 @@
 <h2 style="text-align:center;">L’énergie de fission</h2>
 <p style="text-align:center;">L'énergie cinétique des fragments et des particules émises à la suite d'une fission finit par se transformer en énergie thermique, par l'effet des collisions et des interactions avec les atomes de la matière traversée, sauf pour ce qui concerne les neutrinos, inévitablement émis dans les désintégrations β, et qui s’échappent toujours du milieu (ils peuvent traverser la Terre sans interagir).</p>
 
-<img src="https://github.com/ARE-dynamic-G2-2021/Fission-Nucleaire/blob/gh-pages/tabel.png" width="512" height="218">
+<img src="tabel.png" height="218">
 
 <h2 style="text-align:center;">Ordres de grandeur</h2>
 <p> &diams;1 fission produit 193 MeV = 193 × 10^6 × 1,602 18 × 10^−19 = 3,092 2 × 10−11 joules</p>
